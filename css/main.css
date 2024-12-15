@@ -1,0 +1,221 @@
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+	}
+}
+/* For mobile phones: */
+[class*="col-"] {
+	width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+	/* For tablets: */
+	.col-s-1 {width: 8.33%;}
+	.col-s-2 {width: 16.66%;}
+	.col-s-3 {width: 25%;}
+	.col-s-4 {width: 33.33%;}
+	.col-s-5 {width: 41.66%;}
+	.col-s-6 {width: 50%;}
+	.col-s-7 {width: 58.33%;}
+	.col-s-8 {width: 66.66%;}
+	.col-s-9 {width: 75%;}
+	.col-s-10 {width: 83.33%;}
+	.col-s-11 {width: 91.66%;}
+	.col-s-12 {width: 100%;}
+  }
+  @media only screen and (min-width: 768px) {
+	/* For desktop: */
+	.col-1 {width: 8.33%;}
+	.col-2 {width: 16.66%;}
+	.col-3 {width: 25%;}
+	.col-4 {width: 33.33%;}
+	.col-5 {width: 41.66%;}
+	.col-6 {width: 50%;}
+	.col-7 {width: 58.33%;}
+	.col-8 {width: 66.66%;}
+	.col-9 {width: 75%;}
+	.col-10 {width: 83.33%;}
+	.col-11 {width: 91.66%;}
+	.col-12 {width: 100%;}
+  }
+
+html{
+	scroll-behavior: smooth;
+  }
+	body {
+		margin: 0;
+	}
+	body {
+		margin: 0;
+		font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+		font-size: 1rem;
+		font-weight: 400;
+		line-height: 1.5;
+		color:#212529;
+		text-align: left;
+		background-color: white;
+	}
+	*, ::after, ::before {
+		box-sizing: border-box;
+	}
+	body {
+		display: block;
+		margin: 8px;
+	}
+
+.navbar {
+	background: darkblue;
+}
+.navbar-nav  li a:hover {
+	color: #fff !important;
+
+}
+
+/*Slider*/
+.carousel-item{
+	height: 500px;
+}
+.crs-img-1{
+	background: url('../img/tech-transformed.jpeg');
+	background-size: cover;
+	background-position: center;
+	width:100%;
+
+}
+#showcase .fas{
+	font-size:35px;
+
+}
+.container3 {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    border-radius: 90px;
+    margin: 5vh auto;
+    width: 90%;
+    max-width: 1000px;
+    aspect-ratio: 16 / 9;
+    overflow: hidden;
+}
+/*Info */
+#info .infoS{
+	margin-top:70px;
+}
+#info img{
+	border-radius: 5px;
+}
+
+/*Footer*/
+#footer {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#footer{
+	background: darkblue;
+}
+#footer .fab{
+	font-size:25px;
+	color:#fff;
+	border: 1px solid white;
+	padding: 5px;
+}
+#footer .fab:hover{
+	color: white;
+	border-color: blue;
+}
+
+/*About Page*/
+
+/*About Section*/
+#about{
+	background:url('../img/IMG1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+}
+#about .inner-overlay, #services .inner-overlay, #blog .inner-overlay ,
+#contact .inner-overlay{
+	background:rgba(0,0,0,0.7);
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 300px;
+}
+#about-services .fas{
+	font-size:50px;
+}
+
+/*Services Section*/
+#services{
+	background:url('../img/BG1.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+}
+/* Ensure the video container is responsive */
+.video-container {
+	max-width: 100%;  /* Make the container take the full width of its parent */
+	position: relative;  /* Helps with positioning if needed */
+  }
+  
+  video {
+	width: 100%;  /* Make the video take up 100% of its container width */
+	height: auto;  /* Keep the aspect ratio intact */
+  }
+/* Optional: Style for info section */
+.infoS {
+    padding: 20px;
+}
+#alternating-images img {
+    max-height: 300px; /* Limit the image height */
+    object-fit: cover; /* Keep the aspect ratio */
+}
+
+#alternating-images .row {
+    margin-bottom: 2rem; /* Add space between rows */
+}
+
+#alternating-images h2 {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#alternating-images p {
+    font-size: 1rem;
+    color: #6c757d; /* Muted text color */
+}
+/* Make sure all images and containers scale properly */
+.container {
+    max-width: 100%;
+}
+
+/* Make images and text responsive on smaller screens */
+@media (max-width: 767px) {
+    .navbar-brand img {
+        width: 40%;
+    }
+    .text-center {
+        text-align: center;
+    }
+    .col-md-6 {
+        margin-bottom: 15px;
+    }
+}
+/*Services Header*/
+
+#contact{
+	background:url('../img/BG3.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 300px;
+	position: relative;
+}
